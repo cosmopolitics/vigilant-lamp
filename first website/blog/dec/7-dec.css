@@ -1,0 +1,29 @@
+@import './catppuccin.css';
+
+body {
+  background-color: var(--ctp-mocha-base);
+  color: var(--ctp-mocha-text);
+}
+
+ul {
+  padding-left: 20%;
+}
+
+#image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  grid-gap: 15px 15px;
+}
+
+h1 {
+  padding: auto;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+

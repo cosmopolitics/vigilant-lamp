@@ -1,0 +1,18 @@
+@import './catppuccin.css';
+
+body {
+  background-color: var(--ctp-mocha-base);
+  color: var(--ctp-mocha-text);
+}
+
+h1 {
+  padding: auto;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border-radius: 100%;
+}
+

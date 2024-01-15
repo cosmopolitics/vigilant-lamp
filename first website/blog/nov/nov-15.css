@@ -1,0 +1,31 @@
+@import url(./catppuccin.css);
+
+body {
+    background-color: var(--ctp-mocha-base);
+    color: var(--ctp-mocha-text);
+}
+p {
+    color: var(--ctp-mocha-rosewater);
+    padding-left: 20%;
+}
+  
+h1 {
+    padding: auto;
+    text-align: center;
+}
+h2 {
+    padding: auto;
+    text-align: center;
+}
+
+#margin-paragraph {
+    margin: 25px;
+}
+
+#padding-paragraph {
+    padding: 25px;
+}
+#margin-padding-paragraph {
+    margin: 25px;
+    padding: 25px;
+}

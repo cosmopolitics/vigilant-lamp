@@ -1,0 +1,43 @@
+@import url(./catppuccin.css);
+
+#egg{
+  height: 50%;
+  width: 50%;
+}
+
+body {
+    background-color: var(--ctp-mocha-base);
+    color: var(--ctp-mocha-text);
+}
+p {
+    color: var(--ctp-mocha-rosewater);
+    padding-left: 20%;
+}
+#warmup {
+    color: var(--ctp-mocha-teal);
+}
+a:link {
+    color: var(--ctp-mocha-green);
+}
+a:visited {
+    color: var(--ctp-mocha-pink);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  
+h1 {
+    padding: auto;
+    text-align: center;
+}
+h2 {
+    padding: auto;
+    text-align: center;
+}
+div {
+    text-align: center;
+}

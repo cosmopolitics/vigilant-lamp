@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<style>
+    form {
+        padding-left: 30%;
+    }
+    h2 {
+        color: var(--ctp-mocha-text);
+        padding: 20%;
+    }
+</style>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>form</title>
+    <link rel="stylesheet" href="./blog/default-formating.css">
+</head>
+<body>
+    <h1>MadLibs for class</h1>
+    <form id='form' onsubmit="return false">
+        <label for="nounin">noun</label>
+        <input id='nounin' type="text" name="nounin">
+        
+        <label for="past-verb">a past tense verb</label>
+        <input id='past-verb-in' type="text" name="past-verb-in">
+        
+        <label for="other-noun">other noun</label>
+        <input id='other-noun' type="text" name="other-noun">
+   
+        <button id='generate'>generate</button>
+        <button id="reset">Reset</button>
+        <script src="./madlib.js"></script>
+    </form>
+    <h2 id="madlib"></h2>
+</body>
+</html>
